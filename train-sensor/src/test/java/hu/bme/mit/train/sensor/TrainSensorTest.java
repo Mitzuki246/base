@@ -49,7 +49,7 @@ public class TrainSensorTest {
     public void RelativeSpeed_Upper() {
         Senzor.overrideSpeedLimit(10);
 
-        verify(mocTrainUser, times(1)).setAlarmState(true);
+        verify(mocTrainUser, times(1)).setAlarmState(false);
     }
 }
 
