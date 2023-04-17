@@ -11,6 +11,7 @@ public class TrainControllerImpl implements TrainController {
 	private Thread thread;
 
 
+
 	public TrainControllerImpl() {
 		thread = new Thread() {
 			public void run() {
@@ -20,6 +21,7 @@ public class TrainControllerImpl implements TrainController {
 					thread.sleep(1000);
 				} catch (InteruptedException e) {
 					e.printStackTrace();
+					
 				}
 
 			}
