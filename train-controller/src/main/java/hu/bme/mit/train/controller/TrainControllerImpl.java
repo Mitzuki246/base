@@ -18,7 +18,7 @@ public class TrainControllerImpl implements TrainController {
     Timer timer = new Timer("Timer");
     
     long delay = 1000L;
-    //timer.schedule(task, delay);
+    //timer.scheduleAtFixedRate (task, delay);
 
 
 
