@@ -12,8 +12,7 @@ public class TrainControllerImpl implements TrainController {
 
 	TimerTask task = new TimerTask() {
         public void run() {
-            System.out.println("Task performed on: " + new Date() + "n" +
-              "Thread's name: " + Thread.currentThread().getName());
+            followSpeed();
         }
     };
     Timer timer = new Timer("Timer");
